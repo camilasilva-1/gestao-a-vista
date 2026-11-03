@@ -1,6 +1,6 @@
 # Gestão à Vista — Dashboard de Acompanhamento de Demandas
 
-Projeto **educacional e demonstrativo**, desenvolvido para praticar organização, tratamento e análise de dados com **MySQL, DBeaver, Power Query e Power BI**. Os 60 registros são fictícios; este projeto **não é um sistema oficial da Prefeitura do Recife**.
+Projeto **educacional e demonstrativo**, desenvolvido para praticar organização, tratamento e análise de dados com **MySQL, DBeaver, Power Query e Power BI**. Os 60 registros utilizados no estudo são fictícios.
 
 ## Objetivo
 Simular um fluxo de análise de demandas: carregar uma base, diagnosticar dados inconsistentes, padronizar categorias, construir consultas SQL e apresentar indicadores gerenciais.
