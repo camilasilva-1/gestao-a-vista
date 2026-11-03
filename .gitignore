@@ -1,0 +1,12 @@
+# Arquivos locais e credenciais
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.sql.bak
+.DS_Store
+Thumbs.db
+# Backups locais e arquivos de trabalho não documentados
+backup/
+temp/
