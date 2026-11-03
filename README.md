@@ -21,11 +21,25 @@ O relatório também apresenta demandas por área responsável e média do perce
 - **Power Query:** conversão de datas, remoção de espaços e tratamento de campos sem área informada.
 - **Power BI:** cartões de indicadores e gráficos de acompanhamento.
 
+## Visualização do dashboard
+
+O painel foi desenvolvido em **Power BI Desktop**, com dados preparados no **Power Query**.
+
+**Indicadores principais:** 60 demandas, 12 atrasadas e 16 concluídas. Os gráficos apresentam a distribuição por status, por área responsável e a média de conclusão por área.
+
+**Captura do dashboard:** o arquivo será incluído na pasta `imagens/`.
+
+**Arquivo do Power BI:** o modelo `Gestao_a_Vista.pbit` será incluído na pasta `powerbi/`. Diferentemente de um `.pbix`, o `.pbit` preserva a estrutura e as consultas, mas não os registros importados.
+
+Leia a [documentação do Power BI](docs/POWER_BI.md) para entender indicadores, etapas do Power Query, interações e reprodução do relatório.
+
 ## Estrutura
-- `sql/`: consultas, validações e exemplos didáticos de modelagem.
-- `dados/`: base CSV fictícia (a publicar).
-- `powerbi/`: template `.pbit` (a publicar).
-- `imagens/`: captura do dashboard (a publicar).
+
+- `sql/`: consultas e exemplos de modelagem.
+- `docs/POWER_BI.md`: documentação dos indicadores, visuais e transformações.
+- `dados/`: base CSV fictícia (pendente de publicação).
+- `powerbi/`: modelo `.pbit` (pendente de publicação).
+- `imagens/`: captura do painel (pendente de publicação).
 
 ## Tratamento
 - Status padronizados: `concluido` → `Concluído`, `Em Andamento` → `Em andamento`.
